@@ -1,0 +1,7 @@
+-function for generating click between x and y of button
+
+-function for generating click for medium 
+
+-add config file 
+
+-make personal branch for opening location and tindr app
