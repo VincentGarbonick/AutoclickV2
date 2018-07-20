@@ -2,7 +2,8 @@
 
 
 #variables concerning the swipe loop, passes is number of passes 
-passes = 10
+passes = 3
+
 #these do not need to be changed
 count = 0
 likeNum = 0
