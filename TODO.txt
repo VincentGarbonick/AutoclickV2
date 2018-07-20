@@ -5,3 +5,9 @@
 -add config file 
 
 -make personal branch for opening location and tindr app
+
+-add randomgen functions
+
+-add interactive mode that makes config for user
+
+-add installer that installs program for you 
