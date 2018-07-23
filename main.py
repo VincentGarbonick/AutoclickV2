@@ -17,16 +17,21 @@ while count <= passes:
 	if swipeThresh <= 60:
 		pyautogui.moveTo(GenRandLikeX(),GenRandLikeY(), duration = durClock)
 		pyautogui.click()
+		durClock = DurClockGen()
 
 		likeNum = likeNum + 1 
 		print("Likes: %d", likeNum)
 
 		pyautogui.moveTo(GenRandMedX(), GenRandMedY(), duration = durClock)
 		pyautogui.click()
+		durClock = DurClockGen()
+
 
 	else:
 		pyautogui.moveTo(GenRandDisX(), GenRandDisY(), duration = durClock)
 		pyautogui.click()
+		durClock = DurClockGen()
+
 
 		hateNum = hateNum + 1  
 		print("Dislikes: %d", hateNum)

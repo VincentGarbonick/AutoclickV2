@@ -33,3 +33,8 @@ def GenRandDisY():
 	dummy = 0
 	dummy = random.randint( (tindrDislikeY - tindrDislikeDif), (tindrDislikeY))
 	return dummy 
+
+def DurClockGen():
+	dummy = 0 
+	dummy = random.randint(0.3,1.2)
+	return dummy
