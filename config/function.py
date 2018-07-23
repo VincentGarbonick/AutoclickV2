@@ -1,5 +1,6 @@
 #add functions for main.py 
 import random
+import decimal 
 
 from varconfig import *
 
@@ -36,5 +37,6 @@ def GenRandDisY():
 
 def DurClockGen():
 	dummy = 0 
-	dummy = random.randint(0.3,1.2)
+	dummy = random.randint(3,12)
+	dummy = dummy / 10
 	return dummy
