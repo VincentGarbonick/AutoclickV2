@@ -11,3 +11,5 @@
 -add interactive mode that makes config for user
 
 -add installer that installs program for you 
+	have installer have you click in prompted spots (max like x etc) and then populate/generate a config file 
+	that is in format of OG config file
