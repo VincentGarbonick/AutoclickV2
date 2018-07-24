@@ -40,6 +40,6 @@ while count <= passes:
 
 	count = count + 1  
 
-print("Job's done")
+print("Job's done ;)")
 print("Total Likes: {}".format(likeNum))
 print("Total Dislikes: {}".format(hateNum))
