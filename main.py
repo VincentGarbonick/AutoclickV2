@@ -10,6 +10,8 @@ import config
 from varconfig import * 
 from function import *
 
+#turns on location and opens Tindr
+TindrInit()
 
 while count <= passes:
 
