@@ -16,13 +16,13 @@ while count <= passes:
 	#variable that decides if loop is going to like or dislike someone 
 	swipeThresh = random.randint(1,100)
 
-	if swipeThresh <= 40:
+	if swipeThresh <= 45:
 		pyautogui.moveTo(GenRandLikeX(),GenRandLikeY(), duration = durClock)
 		pyautogui.click()
 		durClock = DurClockGen()
 
 		likeNum = likeNum + 1 
-		print("Likes: %d", likeNum)
+		print("Likes: {}".format(likeNum))
 
 		pyautogui.moveTo(GenRandMedX(), GenRandMedY(), duration = durClock)
 		pyautogui.click()
@@ -36,10 +36,10 @@ while count <= passes:
 
 
 		hateNum = hateNum + 1  
-		print("Dislikes: %d", hateNum)
+		print("Dislikes: {}".format(hateNum))
 
 	count = count + 1  
 
 print("Job's done")
-print("Total Likes: %d" % likeNum)
-print("Total Dislikes: %d" % hateNum)
+print("Total Likes: {}".format(likeNum))
+print("Total Dislikes: {}".format(hateNum))

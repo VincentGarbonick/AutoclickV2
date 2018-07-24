@@ -37,6 +37,6 @@ def GenRandDisY():
 
 def DurClockGen():
 	dummy = 0 
-	dummy = random.randint(3,12)
+	dummy = random.randint(4,14)
 	dummy = dummy / 10
 	return dummy

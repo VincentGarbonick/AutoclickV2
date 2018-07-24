@@ -1,15 +1,17 @@
--function for generating click between x and y of button
+**function for generating click between x and y of button
 
--function for generating click for medium 
+**function for generating click for medium 
 
--add config file 
+**add config file 
 
 -make personal branch for opening location and tindr app
 
--add randomgen functions
+**add randomgen functions
 
 -add interactive mode that makes config for user
 
 -add installer that installs program for you 
 	have installer have you click in prompted spots (max like x etc) and then populate/generate a config file 
 	that is in format of OG config file
+
+** - done 
