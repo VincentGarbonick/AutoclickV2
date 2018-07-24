@@ -5,7 +5,7 @@ import random
 import decimal
 
 import sys 
-sys.path.insert(0, 'C:/Users/vincent/AutoclickV2/AutoclickV2/config')
+sys.path.insert(0, 'C:/Users/vincent/AutoclickV2/config')
 import config
 from varconfig import * 
 from function import *

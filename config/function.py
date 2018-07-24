@@ -1,8 +1,12 @@
 #add functions for main.py 
 import random
 import decimal 
+import pyautogui
+import time
 
 from varconfig import *
+
+
 
 #function to generate random position for like 
 def GenRandLikeX():
@@ -43,6 +47,8 @@ def DurClockGen():
 
 def TindrInit():
 	#turns location on for you 
+	dur = 1.3
+
 	pyautogui.moveTo(851,171, duration = dur)
 	pyautogui.dragTo(882,610, 0.5, button = 'left')
 
