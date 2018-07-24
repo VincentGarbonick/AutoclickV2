@@ -22,7 +22,7 @@ def GenRandMedX():
 
 def GenRandMedY():
 	dummy = 0
-	dummy = random.randint( (tindrMedY - tindrMedDif), (tindrMedY))
+	dummy = random.randint( (tindrMedY - 3), (tindrMedY))
 	return dummy 
 
 def GenRandDisX():

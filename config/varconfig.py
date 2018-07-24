@@ -2,7 +2,7 @@
 
 
 #variables concerning the swipe loop, passes is number of passes 
-passes = 5
+passes = 20
 
 #these do not need to be changed
 count = 0
@@ -10,19 +10,19 @@ likeNum = 0
 hateNum = 0
 
 #variables concerning screen size, can be adjusted for different screens (like and dislike come from center of button)
-tindrLikeX = 1350
-tindrLikeY = 754
+tindrLikeX = 983
+tindrLikeY = 760
 #variable that measures the distance between 
-tindrLikeDif = 10
+tindrLikeDif = 45
 
 
-tindrMedX = 1350
-tindrMedY = 734
-tindrMedDif = 10
+tindrMedX = 953
+tindrMedY = 696
+tindrMedDif = 132
 
-tindrDislikeX = 1300
-tindrDislikeY = 754
-tindrDislikeDif = 10
+tindrDislikeX = 852
+tindrDislikeY = 760
+tindrDislikeDif = 45
 
 #variables concerning duration of clicks and swipes
 clickClock = 0.5

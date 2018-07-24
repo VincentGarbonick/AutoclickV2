@@ -5,7 +5,7 @@ import random
 import decimal
 
 import sys 
-sys.path.insert(0, 'C:/Users/vincent.garbonick/Desktop/AutoclickV2/config')
+sys.path.insert(0, 'C:/Users/vincent/AutoclickV2/AutoclickV2/config')
 import config
 from varconfig import * 
 from function import *
@@ -16,7 +16,7 @@ while count <= passes:
 	#variable that decides if loop is going to like or dislike someone 
 	swipeThresh = random.randint(1,100)
 
-	if swipeThresh <= 45:
+	if swipeThresh <= 48:
 		pyautogui.moveTo(GenRandLikeX(),GenRandLikeY(), duration = durClock)
 		pyautogui.click()
 		durClock = DurClockGen()
